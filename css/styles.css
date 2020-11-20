@@ -1,0 +1,59 @@
+.reserva {
+  background-image: url('assets/reserva.png');
+  position: absolute;
+  left: 0;
+  top: 80px;
+  z-index: 1;
+}
+
+.caveira {
+  background-image: url('assets/caveira.gif');
+  position: absolute;
+  z-index: 2;
+  display: block;
+}
+
+.foco-incendio {
+  background-image: url('assets/foco.gif');
+  position: absolute;
+  z-index: 2;
+  display: block;
+}
+
+.vidas {
+  position: absolute;
+  background-image: url('assets/arvore.png');
+  background-repeat: no-repeat;
+  top: 5px;
+  z-index: 2;
+  width: 100px;
+  height: 54px;
+}
+
+.pontuacao {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  z-index: 2;
+  color: black;
+}
+
+.devastacao {
+  background-image: url('assets/devastacao.png');
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+
+.gameover {
+  background-image: url('assets/gameover.png');
+  position: absolute;
+  left: 0;
+  top: 80px;
+  z-index: 3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+}
